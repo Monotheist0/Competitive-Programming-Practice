@@ -1,14 +1,14 @@
 #include <iostream>
 
 int calculateSum(int a, int b) {
-    int sum = a + b; // Line A
-    return sum;      // Line B
+    int sum = a + b;
+    return sum;
 }
 
 int main() {
     int x = 5;
     int y = 10;
-    int result = calculateSum(x, y); // <-- BREAKPOINT HERE (Line C)
-    std::cout << result << std::endl; // Line D
+    int result = calculateSum(x, y);
+    std::cout << result << std::endl;
     return 0;
 }

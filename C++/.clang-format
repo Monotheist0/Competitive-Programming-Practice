@@ -1,0 +1,44 @@
+# ============================
+# .clang-format for C++ (CP Ready)
+# ============================
+BasedOnStyle: LLVM
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+ColumnLimit: 100
+
+# Braces & Layout
+BreakBeforeBraces: Attach
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: InlineOnly
+AllowShortBlocksOnASingleLine: Never
+
+# Indentation & Alignment
+DerivePointerAlignment: false
+PointerAlignment: Left
+AlignAfterOpenBracket: DontAlign
+AlignOperands: DontAlign
+AlignConsecutiveAssignments: None
+AlignConsecutiveDeclarations: None
+
+# Spacing
+SpaceBeforeParens: ControlStatements
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+SpaceAfterCStyleCast: false
+SpaceBeforeAssignmentOperators: true
+
+# Templates & Includes
+AlwaysBreakTemplateDeclarations: Yes
+SortIncludes: false
+
+# Misc
+ReflowComments: true
+IndentCaseLabels: true
+KeepEmptyLinesAtTheStartOfBlocks: false
+Cpp11BracedListStyle: false
+AllowAllArgumentsOnNextLine: false
+BinPackArguments: false
+BinPackParameters: false
