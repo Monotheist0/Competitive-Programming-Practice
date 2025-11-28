@@ -10,7 +10,7 @@ public:
         parent.resize(n + 1);
         iota(parent.begin(), parent.end(), 0);
         sz.assign(n + 1, 1);
-        num_components = n;
+num_components = n;
         max_size = 1;
     }
     int find(int i) {

@@ -2,14 +2,13 @@
 using namespace std;
 using ll = long long;
 const int MOD = 1e9 + 7;
-
 ll power(ll a, ll b) {
-    ll result = 1;
+    int result = 1;
     while (b > 0) {
         if (b % 2 == 1) {
-            result = (a * result) % MOD;
+            result = result * a % MOD;
         }
-        a = (a * a) % MOD;
+        a = a * a % MOD;
         b /= 2;
     }
     return result;
